@@ -7,7 +7,7 @@ from datetime import datetime
 from datetime import date
 
 # Base URL of the FCA warning list AJAX endpoint
-base_url = 'https://www.fca.org.uk/views/ajax'
+base_url = 'Link was deleted for safety reasons'
 
 today = date.today()
 
@@ -62,7 +62,7 @@ if html_content:
         extracted_data.append({
             'name': name,
             'timestamp': timestp,
-            'case_url': f"https://www.fca.org.uk{href}",
+            'case_url': f"Link was deleted for safety reasons{href}",
             'time_scrapped': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         })
     

@@ -1,5 +1,5 @@
 # Used for manipulation and pulling links
-# NOTE: This script is not perfect and needs to be adjusted for new entries. My plan is to unite two scripts for FCA into once and connect them to DB. 
+
 import requests
 from bs4 import BeautifulSoup
 import re
